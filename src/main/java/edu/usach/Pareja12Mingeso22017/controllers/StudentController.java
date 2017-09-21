@@ -6,7 +6,7 @@ import org.springframework.data.repository.query.Param;
 
 import javax.transaction.Transactional;
 
-//Test1
+//Test2
 @Transactional
 public interface StudentController extends CrudRepository<Student, Long> {
 

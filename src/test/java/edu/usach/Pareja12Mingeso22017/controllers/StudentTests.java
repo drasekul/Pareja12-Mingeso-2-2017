@@ -56,7 +56,7 @@ public class StudentTests {
         entityManager.persist(test);
         entityManager.flush();
 
-        // Search
+        // Search.
         Student found = sRepo.findByName(test.getName());
         System.out.println("++++++++++++++++TEST CREATE+++++++++++++++");
         System.out.println("NOMBRE: "+found.getName());

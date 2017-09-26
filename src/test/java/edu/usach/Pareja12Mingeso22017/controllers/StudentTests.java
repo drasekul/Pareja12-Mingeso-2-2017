@@ -43,7 +43,7 @@ public class StudentTests {
             System.out.println("NOMBRE "+i+": "+student.getName());
             i++;
         }
-        System.out.println("++++++++++++++++++++++++++++++++++++++++++");
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++");
 
         //Assert
         assertThat(students).hasSize(3).contains(test1, test2, test3);
